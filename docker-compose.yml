@@ -8,7 +8,7 @@ services:
     restart: always
     image: postgres
     volumes:
-      - ./postgres/db:/var/lib/postgresql/data
+      - ./postgres/db:/var/lib/postgresql
     environment:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=postgres"
@@ -23,17 +23,6 @@ services:
     read_only: false
     security_opt:
       - no-new-privileges:true
-
-  # template:
-  #   hostname: template
-  #   container_name: template
-  #   build:
-  #     context: .
-  #     dockerfile: ./Dockerfile
-  #   ports:
-  #     - "8000:8000"
-  #   depends_on:
-  #     - repository
 
 networks:
   template:
