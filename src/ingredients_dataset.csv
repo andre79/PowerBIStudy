@@ -1,0 +1,26 @@
+name,min_value,max_value,min_default,max_default
+Farinha de trigo,100,5000,300,1000
+Açúcar refinado,50,3000,100,500
+Açúcar mascavo,50,3000,100,500
+Margarina,10,2000,100,300
+Manteiga,10,2000,100,300
+Ovos,1,200,6,12
+Leite,100,5000,200,1000
+Fermento químico,0.1,100,2,10
+Bicarbonato de sódio,0.1,100,0.5,5
+Sal,0.5,500,2,20
+Amido de milho,10,2000,50,200
+Cacau em pó,5,2000,10,200
+Chocolate em gotas,10,2000,50,200
+Essência de baunilha,0.1,50,1,5
+Mel,10,2000,50,300
+Óleo vegetal,10,2000,50,300
+Aveia em flocos,10,2000,50,200
+Coco ralado,10,2000,50,200
+Canela em pó,0.5,200,1,10
+Nozes ou castanhas,10,2000,50,300
+Leite em pó,10,2000,50,300
+Emulsificante (lecitina de soja),0.1,100,1,10
+Conservante (sorbato de potássio),0.1,100,0.5,5
+Aromatizantes,0.1,100,1,10
+Corantes alimentícios,0.1,100,0.5,5
